@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+
+    <div class="imgdiv">
+        <img src="excited.gif" alt="Winner">
+    </div>
+    <table class="gameTable">
+        <tr>
+            <td></td>
+            <td class="vert"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="hori"></td>
+            <td class="vert hori"></td>
+            <td class="hori"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="vert"></td>
+            <td></td>
+        </tr>
+    </table>
+    <div class="turn">'X' turn..</div>
+    <div class="btn">
+        <button onclick="resetGame()">Reset</button>
+    </div>
+    <div class="winner">
+        <h3></h3>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
